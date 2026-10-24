@@ -38,6 +38,9 @@
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2"
   },
+  "files": [
+    "src"
+  ],
   "exports": {
     "prettier": "./src/prettier.config.mjs"
   },
