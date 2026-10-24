@@ -11,6 +11,15 @@
     "email": "dev.danilocordeiro@gmail.com"
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doriedroc/ticketcine-core.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "type": "module",
   "peerDependencies": {
     "prettier": "^3.9.10"
@@ -20,5 +29,8 @@
   },
   "exports": {
     "prettier": "./src/prettier.config.mjs"
+  },
+  "devDependencies": {
+    "semantic-release": "^25.0.9"
   }
 }
