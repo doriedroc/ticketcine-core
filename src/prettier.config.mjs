@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url'
+
 /** @type {import("prettier").Config} */
 export default {
 	trailingComma: 'none',
@@ -17,6 +19,6 @@ export default {
 	],
 	importOrder: ['<THIRD_PARTY_MODULES>', '^@/(.*)$', '^../(.*)', '^./(.*)'],
 	plugins: [
-		'@trivago/prettier-plugin-sort-imports',
+		fileURLToPath(import.meta.resolve('@trivago/prettier-plugin-sort-imports'))
 	]
 }
