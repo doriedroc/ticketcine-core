@@ -43,7 +43,7 @@
     "src"
   ],
   "exports": {
-    "prettier": "./src/prettier.config.mjs"
+    "./prettier": "./src/prettier.config.mjs"
   },
   "devDependencies": {
     "semantic-release": "^25.0.9"
